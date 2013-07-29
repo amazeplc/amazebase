@@ -1,21 +1,15 @@
-# Documentation
+# Amaze Base
 
-Build production
+This repository contains base framework configurations for _Foundation_ and _Bootstrap_,
+with more frameworks to be added at a future date should the need arise.
 
-	grunt
+## Usage
 
-Build development
+__Foundation__:
 
-	grunt development
+	git clone https://github.com/amazeplc/amazebase.git -b foundation
 
-Server production
+__Bootstrap__:
 
-	grunt server:production
+	git clone https://github.com/amazeplc/amazebase.git -b bootstrap
 
-Server development
-
-	grunt server
-
-## Useful links
-
-- [Handlebars helpers included in assemble](https://github.com/assemble/helper-lib)
