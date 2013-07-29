@@ -7,7 +7,7 @@ with more frameworks to be added at a future date should the need arise.
 
 __Foundation__:
 
-	curl -L goo.gl/afaAGP | bash && cd amazebase-foundation && grunt server
+	curl -L goo.gl/afaAGP
 
 __Bootstrap__:
 
