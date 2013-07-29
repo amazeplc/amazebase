@@ -1,17 +1,16 @@
 # Amaze Base
 
-This repository contains base framework configurations for _Foundation_ and _Bootstrap_,
-with more frameworks to be added at a future date should the need arise.
+This repository contains base framework for _Foundation_.
 
-## Usage
+## Download
 
-__Foundation__:
+__Git__:
 
-  git clone https://github.com/amazeplc/amazebase.git -b foundation
+	git clone https://github.com/amazeplc/amazebase.git -b foundation
 
-__Bootstrap__:
+__Or Download__:
 
-	git clone https://github.com/amazeplc/amazebase.git -b bootstra¬p
+	https://github.com/amazeplc/amazebase/archive/foundation.zip
 
 ## Setup
 
@@ -40,7 +39,7 @@ __Open Terminal and run__:
 Once setup completes it will open the Grunt server task,
 which will build app and create a dist folder, which will be the server's root.
 
-## Sublime Text
+## Sublime Text Build
 
 To build the project, add the following build systems to Sublime Text by using __Tools -> Build System -> New Build System__ and name them as follows:
 
