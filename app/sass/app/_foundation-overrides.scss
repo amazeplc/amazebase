@@ -1,0 +1,224 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Condensed", sans-serif; 
+	font-weight: 400;
+	font-style: normal;
+	color: #222;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.8em;
+	line-height: 1.2125em;
+}
+
+#demo-header-text {
+	margin-top: 0;
+}
+
+body {
+  // background: white;
+  color: #222222;
+  font-family: "Roboto", sans-serif;
+  // font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-family: "Roboto", sans-serif; 
+}
+
+.subheader {
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 400;
+	color: $amaze-chocolate;
+	h4, h5 {
+		font-family: "Roboto Slab", sans-serif;
+	}
+	//margin-top: 0;
+}
+
+.amaze-logo {
+	margin-top: 1em;
+}
+
+button, .button {
+	border-style: none;
+	cursor: pointer;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	background-color:$amaze-orange;
+	color: white;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	@include transition( background-color 1s ease-out, color .1s );
+
+	.alert, .alert {
+		background-color: rgb(213, 87, 90);
+		border-color: #970b0e;
+		color: white;
+	}
+
+}
+
+.button:hover{
+	background-color:$amaze-maroon;
+	color:$amaze-yellow;		 
+}
+
+.panel-button {
+	background-color:$amaze-orange;
+	&:hover{
+		color: $amaze-lightblue;
+	} 
+}
+
+.panel{
+	border-style: none;
+
+	p {
+		font-size: 0.9em;
+		margin-bottom: 1.6em;
+		line-height: 1.4;
+		//padding: 0 1em 1em 1em;
+	}
+	h4 {
+		//padding: 1.2em 1em 0 0.8em;
+		//margin-top: 0;
+		//font-size: 1em;
+		//-w, h5eight: 700;
+	}
+	.button {
+		//margin: 0 1em 1em;
+		color:  darken($amaze-orange, 45%);
+		color: white;
+		&:hover {
+			color: $amaze-yellow;
+		}
+	}
+}
+
+.panel.callout {
+
+	border-style: none;
+	margin-bottom: 1.5em;
+	padding: 1.25em;
+	background: $amaze-lightblue;
+	
+
+	h4, h5  {
+		color: #222;
+		margin-top: 0.7em;
+		font-weight: 400;
+	}
+
+	p{
+		color: #222222;
+		//color:  lighten($amaze-chocolate, 35%);
+		margin-top: 0;
+		font-weight: 400;
+	}
+}
+
+.pod {
+	
+	border-style: none;
+	//background: $amaze-grey;
+	//text-align: center;
+
+	padding: 0;
+
+	p {
+		font-size: 0.9em;
+		margin: 0;
+		line-height: 1.4;
+		padding: 0 1em 1.5em 1em;
+	}
+	h4 {
+		padding: 0.8em 1em 0 0.8em;
+		margin-top: 0;
+		//font-size: 1em;
+		//-w, h5eight: 700;
+	}
+	.button {
+		margin: 0 1em 1em;
+		//color: $amaze-maroon;
+		&:hover {
+			color: $amaze-yellow;
+		}
+	}
+}
+
+
+i {
+	font-size: 40px;
+	color: $amaze-orange;
+	@include transition( color 0.1s ease-out );
+}
+
+.i_gen{
+	color: $amaze-orange;
+	&:hover{
+		color:  lighten($amaze-orange, 20%);
+	} 
+}
+
+.i_acc {
+	color: $amaze-orange;
+	&:hover{
+		color: $amaze-brown;
+	} 
+}
+
+.i_gen-enc {
+	color: #222222;
+	&:hover{
+		color:  darken($amaze-orange, 15%);
+	} 
+}
+
+.i_soc {
+	color: $amaze-orange;
+	&:hover{
+		color: $amaze-maroon;
+	} 
+}
+
+label {
+	margin: 0 0 1em 0;
+}
+
+form.custom .custom.checkbox {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: -1px;
+	margin-right: 0.6em;
+}
+
+fieldset {
+	background-color: $amaze-grey;
+}
+
+
+.error input,
+input.error,
+.error textarea,
+textarea.error {
+	border-style: none;
+  // border-color: #c60f13;
+  background-color: rgba(198, 15, 19, 0.1);
+}
+
+.error small,
+small.error {
+	display: block;
+	padding: 0.375em 0.25em;
+	margin-top: -1.3125em;
+	margin-bottom: 1em;
+	font-size: 0.75em;
+	font-weight: bold;
+	background: $amaze-maroon;
+	color: white;
+}
+
+.error label,
+label.error {
+	color: $amaze-maroon;
+}
+
