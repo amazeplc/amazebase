@@ -194,6 +194,11 @@ module.exports = function(grunt) {
         files: [
           { expand: true, cwd: 'app/html/pages/', src: '**/*.html', dest: 'dist/html/' },
         ],
+      },
+      fonts: {
+        files: [
+          { expand: true, cwd: 'app/fonts/', src: '**/*', dest: 'dist/fonts/', filter: 'isFile' },
+        ]
       }
     },
 
@@ -286,6 +291,7 @@ module.exports = function(grunt) {
     'uglify',
     'clean:devjs',
     'copy:html',
+    'copy:fonts',
     'assemble:production'
   ]);
 
@@ -296,6 +302,7 @@ module.exports = function(grunt) {
     'copy:img',
     'copy:js',
     'copy:html',
+    'copy:fonts',
     'assemble:development'
   ]);
 
