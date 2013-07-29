@@ -7,7 +7,7 @@ with more frameworks to be added at a future date should the need arise.
 
 __Foundation__:
 
-	curl -L goo.gl/afaAGP
+	curl -L goo.gl/afaAGP | bash
 
 __Bootstrap__:
 
